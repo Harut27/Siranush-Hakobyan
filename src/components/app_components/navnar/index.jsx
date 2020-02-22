@@ -11,15 +11,18 @@ class Navbar extends Component{
 
         return(
             <div className="navbar">
-                {
-                    links.map((link,index)=>{
-                        return(
-                            <div className="navbar-link" key={index}>
-                                <Link to={`/${link.toLowerCase().replace(/\s/g, '')}`}>{link}</Link>
-                            </div>
-                        )
-                    })
-                }
+                <div className="logo-section">Logo</div>
+                <div className="links-section">
+                    {
+                        links.map((link,index)=>{
+                            return(
+                                <div className="navbar-link" key={index}>
+                                    <Link to={`/${link.toLowerCase().replace(/\s/g, '')}`}>{link}</Link>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
             </div>
         )
     }
