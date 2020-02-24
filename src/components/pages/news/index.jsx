@@ -5,7 +5,7 @@ class News extends Component{
 
     render(){
         return(
-            <div className="homeContainer">
+            <div className="newsContainer">
                 News
             </div>
         )

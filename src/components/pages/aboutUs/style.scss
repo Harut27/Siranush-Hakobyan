@@ -1,0 +1,56 @@
+.aboutContainer{
+
+    background: #8bc34a2b;
+    
+
+    .contant-section{
+
+        display: flex;
+        flex-direction: column;
+        width: 980px;
+        margin: 0 auto;
+        padding-top: 100px;
+
+        .about-title{
+            margin: 40px;
+            font-size: 38px;
+            color: #5f743a;
+            display: flex;
+            align-self: center;
+        }
+
+        .about-text{
+            background: #e8f4d92b;
+            font-size: 20px;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .about-img{
+            width: 980px;
+            display: flex;
+
+            .about4{
+                width: 537px;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            .about1{
+                width: 440px;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+        }
+}
+}
+
+.margin{
+    margin-top: 50px;
+
+}

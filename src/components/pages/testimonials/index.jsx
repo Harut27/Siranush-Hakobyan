@@ -5,8 +5,8 @@ class Testimonials extends Component{
 
     render(){
         return(
-            <div className="homeContainer">
-                Testimonials
+            <div className="testimonialsContainer">
+               
             </div>
         )
     }

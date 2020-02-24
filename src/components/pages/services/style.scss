@@ -1,0 +1,46 @@
+.servicesContainer{
+    display: flex;
+    flex-direction: column;
+
+    .servicices-photo{
+        display: flex;
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 100px;
+        position: relative;
+
+        .services2,
+        .services3{
+            height: 330px;
+        }
+
+        .services3,
+        .services,
+        .services2{
+            width: 333px;
+        }
+
+        .services2 img,
+        .services img,
+        .services3 img{
+            width: 100%;
+        }
+
+        .services3 img,
+        .services2 img{
+            height: 100%;
+        }
+
+        .services-title{
+            position: absolute;
+            font-size: 30px;
+        }
+    }
+
+    .services-description{
+        margin-top: 50px;
+        width: 70%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+}

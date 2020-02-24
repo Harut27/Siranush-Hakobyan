@@ -1,0 +1,43 @@
+.contactContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .picture-section{
+        position: relative;
+        height: 530px;
+        width: 800px;
+
+        img{
+            height: 100%;
+        }
+
+
+        .adress-section{
+            position: absolute;
+            height: 440px;
+            width: 340px;
+            background: #330d10;
+            top: 40px;
+            left: -50px;
+            padding: 35px;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+
+            .contact-title{
+                color: #ded9d6;
+                font-size: 33px;
+                margin-bottom: 30px;
+            }
+
+            .contactData{
+                color: #ded9d6;
+                margin-top: 30px;
+                font-size: 20px;
+            }
+
+        }
+    }
+}

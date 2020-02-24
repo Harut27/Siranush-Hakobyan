@@ -5,7 +5,7 @@ class Catalog extends Component{
 
     render(){
         return(
-            <div className="homeContainer">
+            <div className="catalogContainer">
                 Catalog
             </div>
         )

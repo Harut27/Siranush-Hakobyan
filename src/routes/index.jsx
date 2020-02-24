@@ -4,7 +4,7 @@ import { Switch } from "react-router";
 
 import GuestLayout from "./guest-layout";
 import Home from "../components/pages/home";
-import AboutUs from "../components/pages/auboutUs";
+import AboutUs from "../components/pages/aboutUs";
 import Catalog from "../components/pages/catalog";
 import ContactUs from "../components/pages/contactUs";
 import News from "../components/pages/news";

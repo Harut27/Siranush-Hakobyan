@@ -11,7 +11,7 @@ class Navbar extends Component{
 
         return(
             <div className="navbar">
-                <div className="logo-section">Logo</div>
+                <div className="logo-section">Eng</div>
                 <div className="links-section">
                     {
                         links.map((link,index)=>{

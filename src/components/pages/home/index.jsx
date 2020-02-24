@@ -1,16 +1,20 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom"
 import "./style.scss"
-import Rihana1 from "../../../images/rihana-2.jpg"
+import logo from "../../../images/logo.png"
 
 class Home extends Component{
 
     render(){
         return(
             <div className="homeContainer">
+
+                <div className="home-logo">
+                    <img src={logo} alt=""/>
+                </div>
                 
-                <div className="home-photo">
-                    <img src={Rihana1} alt=""/>
+                <div className="home-text">
+                <span>Յուրաքանչյուր աքսեսուար<br/> ունի իր յուրօրինակ պատմությունը,<br/> դա կարող է դառնալ քո կյանքի պատմությունը,<br/> քո ստեղծագործ աշխարհի վկայությունը։</span>
                 </div>
             </div>
         )
