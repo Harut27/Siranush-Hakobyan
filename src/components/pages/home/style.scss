@@ -12,26 +12,25 @@
 
     .home-text{
         height: 200px;
+        width: 535px;
         margin: 40px;
+        background: #02020294;
 
         span{
             color: #fff;
-            font-size: 31px;
+            font-size: 30px;
             line-height: 1.5;
-            background: #0000005c;
-            padding: 8px;
+            margin: 5px;
         }
 
     }
 
     .home-logo{
-        height: 245px;
-        width: 245px;
-        margin: 140px 40px 35px;
-        background: rgba(255, 255, 255, 0.199);
+        width: 470px;
+        margin: 255px 70px 265px;
 
         img{
-            height: 100%;
+            width:  100%;
             color: #fff;
         }
     }
