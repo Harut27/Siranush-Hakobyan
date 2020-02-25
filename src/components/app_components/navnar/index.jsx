@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {Link} from "react-router-dom";
 import "./style.scss";
 
+
 const links = ["Home","About Us","Services","Catalog","News","Testimonials","Contact Us"]
 
 
@@ -11,7 +12,11 @@ class Navbar extends Component{
 
         return(
             <div className="navbar">
-                <div className="logo-section">Eng</div>
+                <div className="languages">
+                    <div className="eng">EN</div>
+                    <div className="ru">RU</div>
+                    <div className="arm">AR</div>
+                </div>
                 <div className="links-section">
                     {
                         links.map((link,index)=>{

@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./style.scss";
-import about1 from "../../../images/about/about1.JPG";
+import about1 from "../../../images/about/about1.jpg";
 import about4 from "../../../images/about/about4.jpg";
 
 
