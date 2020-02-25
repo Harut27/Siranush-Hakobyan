@@ -1,3 +1,4 @@
+
 .homeContainer{
     display: flex;
     height: 100vh;
@@ -22,7 +23,6 @@
             line-height: 1.5;
             margin: 5px;
         }
-
     }
 
     .home-logo{
@@ -34,5 +34,15 @@
             color: #fff;
         }
     }
+}
 
+
+@media screen and (max-width: 1550px){
+
+    .homeContainer{
+    .home-logo{
+        width: 384px;
+        margin: 214px 70px 145px;
+    }
+}
 }

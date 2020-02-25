@@ -1,0 +1,22 @@
+.catalog-manu{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #00000096;
+    width: 80%;
+    margin: 0 auto;
+
+    .catalog-link{
+        margin: 15px;
+        padding: 7px;
+        border-radius: 20px;
+        background: #a71919;
+        color: #fff;
+
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+
+    }
+}
