@@ -5,8 +5,8 @@ class Koshikner extends Component{
 
     render(){
         return(
-            <div>
-                Koshikner
+            <div className="koshikner-container">
+                Coming Soon
             </div>
         )
     }
