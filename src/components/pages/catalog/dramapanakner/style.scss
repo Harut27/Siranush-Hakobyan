@@ -1,12 +1,14 @@
 .dramapanakner-container{
     background: #8bc34a2b;
+    height: calc(100vh - 145px);
+
 }
 
 
     .dramapanakner-wrapper{
         display: flex;
         flex-wrap: wrap;
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
         
 

@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./style.scss"
-import RihanaContact from "../../../images/rihanna-contact.jpg"
+// import RihanaContact from "../../../images/rihanna-contact.jpg"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
@@ -10,7 +10,7 @@ class ContactUs extends Component{
         return(
             <div className="contactContainer">
                 <div className="picture-section">
-                <img src={RihanaContact} alt=""/>
+                {/* <img src={RihanaContact} alt=""/> */}
 
                     <div className="adress-section">
                         <span className="contact-title">Contact Us</span>

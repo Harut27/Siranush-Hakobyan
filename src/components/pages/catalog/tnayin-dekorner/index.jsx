@@ -5,8 +5,8 @@ class TnainDekorner extends Component{
 
     render(){
         return(
-            <div>
-                TnainDekorner
+            <div className="tnain-dekorner">
+                Coming Soon
             </div>
         )
     }
