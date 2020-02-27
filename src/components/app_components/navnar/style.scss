@@ -1,8 +1,10 @@
+@import "../../../global.scss";
+
 .navbar{
     display: flex;
     height: 75px;
     width: 100%;
-    background: #02020294;
+    background: $darckBackground;
     justify-content: space-between;
     align-items: center;
     position: absolute;
@@ -15,10 +17,10 @@
         .ru,
         .eng,
         .arm{
-            color: #fff;
+            color: $lightColor;
             font-size: 14px;
             border-radius: 50%;
-            border: 1px solid #fff;
+            border: 1px solid $lightColor;
             margin: 5px;
             padding: 5px;
             cursor: pointer;
@@ -30,7 +32,7 @@
         display: flex;
 
         a{
-            color: #ffffff;
+            color: $lightColor;
             font-size: 20px;
             text-decoration: none;
             margin: 26px;

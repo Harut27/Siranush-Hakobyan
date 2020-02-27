@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./style.scss";
+import "../style.scss";
 
 import Sharfer1 from "../../../../images/catalog/sharfer/Sharfer1.jpg";
 import Sharfer2 from "../../../../images/catalog/sharfer/Sharfer2.jpg";
@@ -26,11 +26,11 @@ class Sharfer extends Component{
     render(){
         return(
             <div className="shatfer-container">
-                <div className="sharfer-wrapper">
+                <div className="sharfer-wrapper centered">
                     {
                         images.map((image,index)=>{
                             return(
-                                <div className={`${image} img`} key={index}>
+                                <div className={`${image} img big-cart`} key={index}>
                                     <img src={image} alt=""/>
                                 </div>
                             )

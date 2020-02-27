@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./style.scss";
+import "../style.scss";
 import Payusak2 from "../../../../images/catalog/payusakner/Payusak2.jpg";
 import Payusak3 from "../../../../images/catalog/payusakner/Payusak3.jpg";
 import Payusak4 from "../../../../images/catalog/payusakner/Payusak4.jpg";
@@ -24,11 +24,11 @@ class Payusakner extends Component{
     render(){
         return(
             <div className="payusakner-container">
-                <div className="payusakner-wrapper">
+                <div className="payusakner-wrapper centered">
                     {
                         images.map((image,index)=>{
                             return(
-                                <div className={`${image} img`} key={index}>
+                                <div className={`${image} img bigest-cart`} key={index}>
                                     <img src={image} alt=""/>
                                 </div>
                             )

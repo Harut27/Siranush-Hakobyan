@@ -1,20 +1,22 @@
+@import "../../../global.scss";
+
 .catalog-manu{
     padding-top: 78px;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #00000026;
+    border-bottom: 1px solid $darckBackground;
     margin: 0 auto;
-    background: #ebf5e0;
+    background: $lightColor;
 
     .catalog-link{
         margin: 15px;
         padding: 7px 10px;
         border-radius: 20px;
         background: #6c6c6c;
-        color: #fff;
+        color: $lightColor;
 
         a{
-            color: #ebf5e0;
+            color: $lightColor;
             text-decoration: none;
         }
 

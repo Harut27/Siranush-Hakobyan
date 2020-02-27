@@ -1,3 +1,5 @@
+@import "../../../global.scss";
+
 .aboutContainer{
 
     background: #d9e8c72b;
@@ -9,7 +11,7 @@
         flex-direction: column;
         width: 980px;
         margin: 0 auto;
-        padding-top: 100px;
+        padding-top: $padding-top;
 
         .about-title{
             margin: 40px;
@@ -20,7 +22,8 @@
         }
 
         .about-text{
-            background: #d9e8c72b;
+            background: #d9e8c72b
+            ;
             font-size: 20px;
             width: 100%;
             padding: 20px;
@@ -45,7 +48,6 @@
                     width: 100%;
                 }
             }
-
         }
 }
 }

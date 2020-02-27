@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./style.scss";
+import "../style.scss";
 
 import Collection2 from "../../../../images/catalog/collection/Collection2.jpg";
 import Collection3 from "../../../../images/catalog/collection/Collection3.jpg";
@@ -37,11 +37,11 @@ class Collection extends Component{
     render(){
         return(
             <div className="collection-container">
-                <div className="collection-wrapper">
+                <div className="collection-wrapper centered">
                     {
                         images.map((image,index)=>{
                             return(
-                                <div className={`${image} img`} key={index}>
+                                <div className={`${image} img medium-cart`} key={index}>
                                     <img src={image} alt=""/>
                                 </div>
                             )

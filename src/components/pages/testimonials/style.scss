@@ -1,6 +1,8 @@
-.koshikner-container{
-    background: #8bc34a2b;
-    height: calc(100vh - 145px);
+@import "../../../global.scss";
+
+.testimonials-container{
+    background: $ligth-background;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;

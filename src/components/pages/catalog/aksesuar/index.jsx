@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./style.scss";
+import "../style.scss";
 
 import Accessories1 from "../../../../images/catalog/acsesuarner/Accessories1.jpg";
 import Accessories5 from "../../../../images/catalog/acsesuarner/Accessories5.jpg";
@@ -24,11 +24,11 @@ class Aksesuar extends Component{
     render(){
         return(
             <div className="aksesuar-page">
-                <div className="aksesuarner-wrapper">
+                <div className="aksesuarner-wrapper centered">
                     {
                         images.map((image,index)=>{
                             return(
-                                <div className={`${image} img`} key={index}>
+                                <div className={`${image} img big-cart`} key={index}>
                                     <img src={image} alt=""/>
                                 </div>
                             )

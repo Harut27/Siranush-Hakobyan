@@ -1,3 +1,5 @@
+@import "../../../global.scss";
+
 .contactContainer{
     display: flex;
     justify-content: center;
@@ -6,8 +8,7 @@
 
     .picture-section{
         position: relative;
-        height: 530px;
-        width: 800px;
+        height: 710px;
 
         img{
             height: 100%;
@@ -16,24 +17,24 @@
 
         .adress-section{
             position: absolute;
-            height: 440px;
+            height: 550px;
             width: 340px;
-            background: #330d10;
-            top: 40px;
-            left: -50px;
+            background: #6c6c6c;
+            bottom:  0px;
+            left: -250px;
             padding: 35px;
             display: flex;
             flex-direction: column;
             box-sizing: border-box;
 
             .contact-title{
-                color: #ded9d6;
+                color: $lightColor;
                 font-size: 33px;
                 margin-bottom: 30px;
             }
 
             .contactData{
-                color: #ded9d6;
+                color: $lightColor;
                 margin-top: 30px;
                 font-size: 20px;
             }

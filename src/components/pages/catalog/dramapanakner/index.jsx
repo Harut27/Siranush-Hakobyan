@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./style.scss";
+import "../style.scss";
 
 import Dramapanak1 from "../../../../images/catalog/dramapanakner/Dramabanak1.jpg";
 import Dramapanak2 from "../../../../images/catalog/dramapanakner/Dramabanak2.jpg";
@@ -28,11 +28,11 @@ class Dramapanakner extends Component{
     render(){
         return(
             <div className="dramapanakner-container">
-                <div className="dramapanakner-wrapper">
+                <div className="dramapanakner-wrapper centered">
                     {
                         images.map((image,index)=>{
                             return(
-                                <div className={`${image} img`} key={index}>
+                                <div className={`${image} img big-cart`} key={index}>
                                     <img src={image} alt=""/>
                                 </div>
                             )

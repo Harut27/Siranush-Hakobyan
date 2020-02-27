@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./style.scss";
+import "../style.scss";
 
 import Gotiner1 from "../../../../images/catalog/gotiner/Gotiner1.jpg";
 import Gotiner2 from "../../../../images/catalog/gotiner/Gotiner2.jpg";
@@ -16,11 +16,11 @@ class Gotiner extends Component{
     render(){
         return(
             <div className="gotiner-section">
-                <div className="gotiner-wrapper">
+                <div className="gotiner-wrapper centered">
                     {
                         images.map((image,index)=>{
                             return(
-                                <div className={`${image} img`} key={index}>
+                                <div className={`${image} img big-cart`} key={index}>
                                     <img src={image} alt=""/>
                                 </div>
                             )
