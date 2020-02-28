@@ -1,5 +1,8 @@
 import React, {Component} from "react";
 import "../style.scss";
+import OpenPhoto from "../../../app_components/open-image/index";
+
+
 import Payusak2 from "../../../../images/catalog/payusakner/Payusak2.jpg";
 import Payusak3 from "../../../../images/catalog/payusakner/Payusak3.jpg";
 import Payusak4 from "../../../../images/catalog/payusakner/Payusak4.jpg";
@@ -29,7 +32,7 @@ class Payusakner extends Component{
                         images.map((image,index)=>{
                             return(
                                 <div className={`${image} img bigest-cart`} key={index}>
-                                    <img src={image} alt=""/>
+                                    <OpenPhoto src={image} kay={index}/>
                                 </div>
                             )
                         })

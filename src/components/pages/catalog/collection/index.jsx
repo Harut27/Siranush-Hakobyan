@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import "../style.scss";
+import OpenPhoto from "../../../app_components/open-image/index";
+
 
 import Collection2 from "../../../../images/catalog/collection/Collection2.jpg";
 import Collection3 from "../../../../images/catalog/collection/Collection3.jpg";
@@ -42,7 +44,7 @@ class Collection extends Component{
                         images.map((image,index)=>{
                             return(
                                 <div className={`${image} img medium-cart`} key={index}>
-                                    <img src={image} alt=""/>
+                                    <OpenPhoto src={image} kay={index}/>
                                 </div>
                             )
                         })

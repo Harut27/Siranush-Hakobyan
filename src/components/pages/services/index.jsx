@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./style.scss";
+import OpenPhoto from "../../app_components/open-image/index";
 import services from "../../../images/services/Services.jpg";
 import services2 from "../../../images/services/Services2.jpg";
 import services3 from "../../../images/services/Services3.jpg";
@@ -16,17 +17,17 @@ class Services extends Component{
                     <div className="other-content"> 
 
                         <div className="servicices-main-photo">
-                            <img src={services} alt=""/>
+                            <OpenPhoto src={services} />
                         </div>
 
                         <div className="other-photos">
 
                             <div className="services3">
-                                <img src={services3} alt=""/>
+                                <OpenPhoto src={services3} />
                             </div>
 
                             <div className="services2">
-                                <img src={services2} alt=""/>
+                                <OpenPhoto src={services2} />
                             </div>
                         </div>
                     </div>

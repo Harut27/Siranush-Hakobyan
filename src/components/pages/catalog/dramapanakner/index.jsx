@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import "../style.scss";
+import OpenPhoto from "../../../app_components/open-image/index";
+
 
 import Dramapanak1 from "../../../../images/catalog/dramapanakner/Dramabanak1.jpg";
 import Dramapanak2 from "../../../../images/catalog/dramapanakner/Dramabanak2.jpg";
@@ -33,7 +35,7 @@ class Dramapanakner extends Component{
                         images.map((image,index)=>{
                             return(
                                 <div className={`${image} img big-cart`} key={index}>
-                                    <img src={image} alt=""/>
+                                    <OpenPhoto src={image} kay={index}/>
                                 </div>
                             )
                         })

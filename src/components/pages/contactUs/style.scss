@@ -7,38 +7,93 @@
     height: 100vh;
 
     .picture-section{
-        position: relative;
         height: 710px;
 
         img{
             height: 100%;
         }
+    }
+    .adress-section{
+        height: 550px;
+        background: #6c6c6c;
+        bottom:  0px;
+        left: -250px;
+        padding: 35px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
 
+        .contact-title{
+            color: $lightColor;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
 
-        .adress-section{
-            position: absolute;
-            height: 550px;
-            width: 340px;
-            background: #6c6c6c;
-            bottom:  0px;
-            left: -250px;
-            padding: 35px;
-            display: flex;
-            flex-direction: column;
-            box-sizing: border-box;
-
-            .contact-title{
-                color: $lightColor;
-                font-size: 33px;
-                margin-bottom: 30px;
+        .contactData{
+            margin-top: 30px;
+            font-size: 20px;
+            color: $lightColor;
+            
+            svg{
+                font-size: 30px;
+                margin-right: 20px;
             }
+        }
+        .contactViber{
 
-            .contactData{
-                color: $lightColor;
-                margin-top: 30px;
-                font-size: 20px;
+            svg{
+                color: rebeccapurple;
             }
+        }
+        .contactWhatsapp{
 
+            svg{
+                color: rgb(31, 243, 84);
+            }
+        }
+        .contactPhone{
+            svg{
+                color: rgba(87, 69, 248, 0.685);
+            }
+        }
+
+        .contactLocation{
+            svg{
+                color: rgb(247, 191, 88);
+            }
+        }
+        .contactMail{
+            svg{
+                color: #bfbebb;
+            }
         }
     }
+
+    .contact-social-icons{
+        display: flex;
+        align-self: center;
+        margin: 36px;
+
+        .facebook-icon{
+            color: blue;
+        }
+
+        .twitter-icon{
+            color: rgb(52, 173, 253);
+        }
+
+        .youtube-icon{
+            color: red;
+        }
+
+        .youtube-icon,
+        .twitter-icon,
+        .facebook-icon{
+            font-size: 40px;
+            margin: 20px;
+            cursor: pointer;
+        }
+
+    }
 }
+

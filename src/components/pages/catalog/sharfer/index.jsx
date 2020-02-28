@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import "../style.scss";
+import OpenPhoto from "../../../app_components/open-image/index";
+
 
 import Sharfer1 from "../../../../images/catalog/sharfer/Sharfer1.jpg";
 import Sharfer2 from "../../../../images/catalog/sharfer/Sharfer2.jpg";
@@ -31,7 +33,7 @@ class Sharfer extends Component{
                         images.map((image,index)=>{
                             return(
                                 <div className={`${image} img big-cart`} key={index}>
-                                    <img src={image} alt=""/>
+                                    <OpenPhoto src={image} kay={index}/>
                                 </div>
                             )
                         })
