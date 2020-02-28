@@ -7,13 +7,28 @@ import about4 from "../../../images/about/about4.jpg";
 
 class AboutUs extends Component{
 
+    state= {
+        imgforopen: null
+    }
+
+    componentDidMount(){
+
+    }
+
+    showImg(img){
+        this.setState({
+            imgforopen: img
+        })
+        // console.log(img)
+    }
+
     render(){
         return(
             <div className="aboutContainer">
                 <div className="contant-section">
                     <div className="about-img">
                         <div className="about4">
-                            <img src={about4} alt=""/>
+                            <img src={about4} alt="" onClick={()=>this.showImg(about4)}/>
                         </div>
                         <div className="about1">
                             <img src={about1} alt=""/>
