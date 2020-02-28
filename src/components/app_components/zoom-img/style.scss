@@ -1,0 +1,20 @@
+.imgWrapper{
+    height: 500px;
+    width: 500px;
+    z-index: 3;
+    position: relative;
+
+    img{
+        height: 100%;
+    }
+}
+
+    .delete-icon{
+        position: absolute;
+        top: 0;
+        left: -5;
+        color: black;
+        font-size: 30px;
+    }
+
+    

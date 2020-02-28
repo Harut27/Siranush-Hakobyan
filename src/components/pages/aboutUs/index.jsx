@@ -2,18 +2,30 @@ import React, {Component} from "react";
 import "./style.scss";
 import about1 from "../../../images/about/about1.jpg";
 import about4 from "../../../images/about/about4.jpg";
-
+import ZoomPhoto from "../../app_components/zoom-img/index";
 
 
 class AboutUs extends Component{
 
+    showModal(e){
+        e.preventDefault()
+       return <ZoomPhoto src={e.target.src}/>
+       console.log(e)
+    }
+    
+
+
+
     render(){
+
+        
+
         return(
             <div className="aboutContainer">
                 <div className="contant-section">
                     <div className="about-img">
                         <div className="about4">
-                            <img src={about4} alt=""/>
+                            <img src={about4} onClick={this.showModal} alt=""/>
                         </div>
                         <div className="about1">
                             <img src={about1} alt=""/>
