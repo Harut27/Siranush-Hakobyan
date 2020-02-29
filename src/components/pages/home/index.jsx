@@ -1,11 +1,15 @@
 import React, {Component} from "react";
-import {Link} from "react-router-dom"
 import "./style.scss"
+import { useTranslation } from 'react-i18next';
 import logo from "../../../images/logos/logo-white.png"
+import  { withTranslation } from 'react-i18next';
 
 class Home extends Component{
 
     render(){
+
+    // const { t, i18n } = useTranslation();
+
         return(
             <div className="homeContainer">
 
@@ -14,11 +18,11 @@ class Home extends Component{
                 </div>
                 
                 <div className="home-text">
-                <span>Յուրաքանչյուր աքսեսուար ունի իր յուրօրինակ պատմությունը, դա կարող է դառնալ քո կյանքի պատմությունը,
-                     քո ստեղծագործ աշխարհի վկայությունը։</span>
+                <span>{this.props.t("home.1")}</span>
                 </div>
             </div>
         )
     }
 }
-export default Home;
+
+export default withTranslation()(Home)
