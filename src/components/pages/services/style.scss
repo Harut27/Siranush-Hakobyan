@@ -50,11 +50,112 @@
             width: 800px;
             font-size: 18px;
             padding: 0 40px;
+            display: flex;
+            flex-direction: column;
     
             .services-title{
                 font-size: 40px;
                 display: flex;
                 align-self: center;
+            }
+
+            .services-description-part div{
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width : 1600px){
+    .servicesContainer{
+        
+    
+        .services-photos{
+    
+            .other-content{
+
+                .servicices-main-photo{
+                    width: 360px;
+                }
+                .other-photos{
+            
+                    .services3,
+                    .services2{
+                        width: 274px;
+                        margin: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 800px){
+    .servicesContainer{
+        
+    
+        .services-photos{
+    
+            .other-content{
+
+                .servicices-main-photo{
+                    width: 250px;
+                }
+                .other-photos{
+            
+                    .services3,
+                    .services2{
+                        width: 189px;
+                        margin: 3px;
+                    }
+                }
+            }
+        }
+        .main-container{
+            padding-top: 40px;
+            .services-description{
+                width: 80%;
+                font-size: 17px;
+        
+                .services-title{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 500px){
+    .servicesContainer{
+    
+        .services-photos{
+    
+            .other-content{
+
+                .servicices-main-photo{
+                    width: 150px;
+                    margin: 2px;
+                }
+                .other-photos{
+            
+                    .services3,
+                    .services2{
+                        width: 110px;
+                        margin: 2px;
+                    }
+                }
+            }
+        }
+        .main-container{
+            padding-top: 10px;
+            .services-description{
+                width: 80%;
+                font-size: 15px;
+        
+                .services-title{
+                    font-size: 18px;
+                }
             }
         }
     }

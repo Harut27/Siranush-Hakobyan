@@ -7,10 +7,10 @@
     height: 100vh;
 
     .picture-section{
-        height: 710px;
+        width: 50%;
 
         img{
-            height: 100%;
+            width:  100%;
         }
     }
     .adress-section{
@@ -94,6 +94,31 @@
             cursor: pointer;
         }
 
+    }
+}
+
+@media only screen and (max-width: 800px){
+    
+    .contactContainer{
+        .picture-section{
+            width: 0%;
+        }
+
+        .adress-section {
+            padding: 10px;
+        }
+        .adress-section .contactData {
+            font-size: 16px;
+        }
+
+        .adress-section .contact-social-icons{
+            .youtube-icon,
+            .twitter-icon,
+            .facebook-icon{
+                font-size: 25px;
+                margin: 10px;
+        }
+        }
     }
 }
 

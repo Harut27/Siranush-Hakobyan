@@ -4,6 +4,7 @@ import OpenPhoto from "../../app_components/open-image/index";
 import services from "../../../images/services/Services.jpg";
 import services2 from "../../../images/services/Services2.jpg";
 import services3 from "../../../images/services/Services3.jpg";
+import  { withTranslation } from 'react-i18next';
 
 
 
@@ -36,31 +37,13 @@ class Services extends Component{
                  
                     <div className="services-description">
                         <div className="services-title">
-                            Services
+                            {this.props.t('services.1')}
                         </div>
-                        <p> «Siranush Hakobian» ապրանքանիշը թողարկում է հետևյալ ապրանքի տեսականին, պայուսակներ, դրամապանակներ, գոտիներ, կրծքազարդեր, շարֆեր, կոշիկներ, տնային դեկորներ և այլն։ 
-                        Ապրանքանիշը ընդունում է պատվերներ և անհատական և տարբեր ֆիրմաների հետ համատեղ։
-                        Ապրանքանիշը ունի վերանորոգման սպասարկում, ըստ «Siranush Hakobian» ապրանքանիշի կողմից տրամադրվող երաշխիքային վկայագրի։ Վերանորոգման սպասարկումը վերաբերվում է միայն ապրանքանիշի կողմից թողարկված նմուշների ։
-                        Մանրամասն տեղեկությունների, հարցերի , համագործակցությայն համար զանգահարել +37494949644 ։</p>
-
-                        <p>Դասընթացներ
-
-                        Սիրանուշ Հակոբյանի կողմից իրականցվում են դասընթացներ , առանց տարիքային սահմանափակման հետևյալ մասնագիտություններով
-                        • Հագուստի մոդելավորում
-                        • Տեքստիլ նկարչություն ( բատիկ )
-                        • Կաշվեգործություն
-                        Դասընթացների արդյունքում աշակերտը ձեռք է բերում բարձր պրոֆեսիոնալ հմտություններ վերոհիշյալ մասնագիտություններով ։
-                        Ք. Երևան</p>
-
-                        <p>Հեռախոս. +37494949644
-                        E-mail. hakobiansiranush@gmail.com
-                        Կայքէջ. https://www.siranushhakobian.com
-                        Facebook. @sirhandmade
-                        Instagram. @hakobiansiranush
-                        Viber. +37494949644
-                        Whatsapp. +37494949644</p>
-
-                        
+                        <div className="services-description-part">
+                            <p>{this.props.t("services.2")} </p>
+                            <div dangerouslySetInnerHTML={{ __html:this.props.t("services.3")}} />
+                            <div dangerouslySetInnerHTML={{ __html:this.props.t("services.4")}} />
+                        </div>
                     </div>
                 </div>
                 
@@ -68,4 +51,4 @@ class Services extends Component{
         )
     }
 }
-export default Services;
+export default withTranslation()(Services);

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route } from "react-router";
-import Navbar from "../../components/app_components/navnar/index";
+import Navbar from "../../components/app_components/navbar/index";
 
 class GuestLayout extends Component {
   render() {
