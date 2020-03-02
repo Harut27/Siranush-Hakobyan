@@ -25,7 +25,9 @@ class AboutUs extends Component{
                         {this.props.t("about.1")}
                     </div>
                     <div className="about-text">
-                        {this.props.t("about.2")}
+                        <p>{this.props.t("about.2")}</p>
+                        <p>{this.props.t("about.3")}</p>
+                        <p>{this.props.t("about.4")}</p>
                     </div>
                     
                 </div>

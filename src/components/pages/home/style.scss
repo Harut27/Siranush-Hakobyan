@@ -16,6 +16,7 @@
         width: 535px;
         margin: 40px;
         background: #02020294;
+        padding: 15px;
 
         span{
             color: $lightColor;
@@ -40,9 +41,114 @@
 @media screen and (max-width: 1550px){
 
     .homeContainer{
-    .home-logo{
-        width: 384px;
-        margin: 214px 70px 145px;
+        .home-logo{
+            width: 325px;
+            margin: 214px 70px 145px;
+        }
+
+        .home-text{
+            width: 464px;
+            margin: 40px 40px 0 40px;
+            
+            span{
+                font-size: 27px;
+            }
+        }
     }
 }
+
+@media only screen and (max-width : 1250px){
+    .homeContainer{
+        background-position-y: 0px;
+        background-position-x: -340px;
+
+        .home-logo{
+            width: 370px;
+            margin: 600px 70px 80px;
+        }
+        .home-text{
+            
+            span{
+                font-size: 37px;
+            }
+        }
+    }
+    
+
 }
+
+@media only screen and (max-width : 800px){
+    .homeContainer{
+
+        background-position-x: -130px;
+        .home-logo{
+            width: 330px;
+            margin: 440px 70px 80px;
+        }
+        .home-text{
+            span{
+                font-size: 30px;
+            }
+        }
+    }
+} 
+
+@media only screen and (max-width : 650px){
+    .homeContainer{
+
+        background-position-x: -240px;
+        .home-logo{
+            width: 180px;
+            margin: 300px 70px 80px;
+        }
+
+        .home-text{
+            width: 80%;
+            margin: 0 auto;
+            span{
+                font-size: 20px;
+            }
+        }
+    }
+} 
+@media only screen and (max-width : 450px){
+    .homeContainer{
+
+        background-position-x: -350px;
+        .home-logo{
+        }
+
+        .home-text{
+            span{
+                font-size: 18px;
+            }
+        }
+    }
+} 
+
+@media only screen and (max-width : 380px){
+    .homeContainer{
+        .home-logo{
+            width: 180px;
+        }
+        .home-text{
+            span{
+                font-size: 16px;
+            }
+        }
+        .home-logo{
+            width: 180px;
+            margin: 442px 70px 34px;
+        }
+    }
+} 
+
+@media only screen and (max-width : 350px){
+    .homeContainer{
+        background-position-x: -300px;
+        .home-logo{
+            width: 161px;
+            margin: 300px 70px 20px;
+        }
+    }
+} 

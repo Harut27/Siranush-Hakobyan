@@ -22,16 +22,16 @@
         }
 
         .about-text{
-            background: #d9e8c72b
-            ;
+            background: #d9e8c72b;
             font-size: 20px;
-            width: 100%;
             padding: 20px;
         }
 
         .about-img{
             width: 980px;
             display: flex;
+            align-self: center;
+
 
             .about4{
                 width: 537px;
@@ -55,4 +55,113 @@
 .margin{
     margin-top: 50px;
 
+}
+
+@media only screen and (max-width : 1120px){
+    .aboutContainer{
+        .contant-section{
+            width: 80%;
+
+            .about-img{
+                width: 730px;
+
+                .about4{
+                    width: 400px;
+                }
+                .about1{
+                    width: 328px;
+                }
+            }
+
+            .about-title{
+                margin: 30px;
+                font-size: 28px;
+            }
+    
+            .about-text{
+                font-size: 17px;
+            }
+    
+        }
+    }
+}
+
+@media only screen and (max-width : 850px){
+    .aboutContainer{
+        .contant-section{
+
+            .about-img{
+                width: 520px;
+
+                .about4{
+                    width: 284px;
+                }
+                .about1{
+                    width: 233px;
+                }
+            }
+
+            .about-title{
+                margin: 19px;
+                font-size: 20px;
+            }
+    
+            .about-text{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 560px){
+    .aboutContainer{
+        .contant-section{
+            .about-img{
+                width: 367px;
+
+                .about4{
+                    width: 200px;
+                }
+                .about1{
+                    width: 164px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 420px){
+    .aboutContainer{
+        .contant-section{
+            width: 90%;
+
+            .about-img{
+                width: auto;
+                height: 150px;
+
+                .about4{
+                    width: 50%;
+                    img{
+                        height: 100%;
+                    }
+                }
+                .about1{
+                    width: 50%;
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+
+            .about-title{
+                margin: 10px;
+                font-size: 18px;
+            }
+    
+            .about-text{
+                font-size: 14px;
+                padding: 1px;
+            }
+        }
+    }
 }

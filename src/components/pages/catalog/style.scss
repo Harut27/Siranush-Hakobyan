@@ -53,3 +53,53 @@
     }
 }
 
+
+@media only screen and (max-width : 1300px){
+
+    
+    .bigest-cart{
+        width: 290px;
+    }
+    
+    .big-cart{
+        width: 260px;
+    }
+
+    .medium-cart{
+        width: 245px;
+    }
+    
+    .bigest-cart,
+    .medium-cart,
+    .big-cart{
+        height: 260px;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width : 950px){
+
+    
+    .centered {
+        width: 95%;
+    }
+        
+    .bigest-cart{
+        width: 205px;
+    }
+
+    .big-cart{
+        width: 200px;
+    }
+
+    .medium-cart{
+        width: 180px;
+    }
+
+    .bigest-cart,
+    .medium-cart,
+    .big-cart{
+        height: 200px;
+        margin: 12px;
+    }
+}

@@ -9,6 +9,33 @@
     },
     "home" : {
         "1" : "Every accessory has its own unique story. Now it can be your story, the testimony of your creative world. "
+    },
+    "about" : {
+        "1" : "About Us",
+        "2" : "“Siranush Hakobian” brand is a brand of hand-made, authentic leather accessories. It was founded on the initiative of artist-stylist Siranush Hakobian. The brand is distinguished by its unique hand crafting of accessories with an exceptional artistic style.Due to the high professional work of the author, the artist's subtle, creative, bold color combinations, interesting constructive solutions, and skillful application of techniques result in unique accessories that can be worn anywhere.",
+        "3" : "Siranush Hakobian was born in Yerevan, Armenia. After high school she entered the department of clothing design at the Haybusak University of Armenia. During her studies at the university, she also had a solo exhibition on composition. Proficient in all the professional disciplines, she is absolutely free in her work and is universal.  After graduating from university with high honors, she was admitted to the same university as a lecturer. She is currently teaching clothing composition, design history of Armenian ornament, embroidery, tapestry, batik, and coloring. While lecturing, she has also worked as a unique shoe designer for the “Armos” shoe firm as well. Having gained considerable experience in the leather industry, she founded “Heliantus” in 2007,  which was renamed “Siranush Hakobian” in 2011.",
+        "4" : "Now the brand creates a wide range of accessories. Work is done from sketches, modeling, material section and design. There are many techniques that are used: embroidery, batik and tattoo. The ornaments used can be both authorial (created by Siranush Hakobian) and traditional ornaments that have a history. The brand retains and gives a new impetus to the leather craft by promoting its development and passing it on from generation to generation. Craftsmanship is the highest-rated art in the world, which never loses its power and relevance. The brand is used with absolutely high quality natural leather and fabric. The inspiration is the Armenian national, architectural, miniature decorative motifs and carpets. By combining timely requirements, patterns and colors, they create art pieces that spread the Armenian culture around the world. The company has many partnerships with local and other brands. The works are sold both within Armenia and abroad."
+    },
+    "services" : {
+        "1" : "Services",
+        "2" : "«Siranush Hakobian» brand designs and crafts a range of the following products: bags, wallets, belts, scarfs, shoes, home decors and all.The brand accepts orders from individuals and other firms as well. A repair service is also available, according to the warranty certificate provided by the Siranush Hakobian brand.Repair service only applies to products issued by the brand.For more information, questions, partnerships call +37494949644.",
+        "3" : "Courses<br/><br/>Siranush Hakobian offers private courses in the following specialties:<br/>• Clothing Design<br/>• Textile Painting (Batik)<br/>• Leather<br/>As a result of the courses the student acquires highly professional skills in the above mentioned specialties.",
+        "4" : "C. Yerevan:<br/>Phone +37494949644:<br/>E-mail: hakobiansiranush@gmail.com:<br/>Website: https://www.siranushhakobian.com:<br/>Facebook: @sirhandmade<br/>Instagram: @hakobiansiranush<br/>Viber: +37494949644<br/>Whatsapp: +37494949644"
+    },
+    "catalog" : {
+        "1" : "Accessories",
+        "2" : "Collection",
+        "3" : "Wallets",
+        "4" : "Belts",
+        "5" : "Shoes",
+        "6" : "Purses",
+        "7" : "Scarfes",
+        "8" : "Home decoration"
+
+    },
+    "contact" : {
+        "1" : "Contact Us",
+        "2" : "C. Yerevan"
     }
 
 }

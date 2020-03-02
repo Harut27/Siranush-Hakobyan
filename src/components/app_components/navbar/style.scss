@@ -1,0 +1,159 @@
+@import "../../../global.scss";
+  
+
+    .header{ 
+        // height: 75px;
+        width: 100%;
+        background: $darckBackground;
+        position: fixed;
+        z-index: 3;
+        box-shadow: 1p 1px 4px 0 $lightColor;
+
+        .languages{
+            margin-left: 30px;
+            float: left;
+            display: block;
+            padding-top: 16px;
+            
+            button{
+                color: $lightColor;
+                font-size: 14px;
+                border-radius: 50%;
+                border: 1px solid $lightColor;
+                margin: 3px;
+                padding: 3px;
+                cursor: pointer;
+                background: $darckBackground;
+            }
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        ul li a{
+            color: $lightColor;
+            display: block;
+            // xoutline: 1px solid red;
+            padding: 8px;
+            border-right: 1px solid #ddd;
+            text-decoration: none;
+        }
+
+        ul li a:hover{
+            background-color: rgb(126, 123, 123);
+        }
+
+        .menu{
+            clear: both;
+            max-height: 0;
+            transition:max-height .2s ease-out ;
+
+        }
+
+        .menu-icon{
+            padding: 28px 20px;
+            position: relative;
+            cursor: pointer;
+            float: right;
+        }
+
+        .menu-icon .nav-icon{
+            background: $lightColor;
+            height: 2px;
+            display: block;
+            width: 18px;
+            position: relative;
+            transition:background .2s ease-out;
+        }
+
+        .menu-icon .nav-icon:before{
+                background: $lightColor;
+                content: "";
+                display: block;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 5px;
+                transition: all .2 ease-out;
+            }
+
+        .menu-icon .nav-icon:after{
+            background: $lightColor;
+            content: "";
+            display: block;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: -5px;
+            transition: all .2 ease-out;
+
+        }
+
+        .menu-btn{
+                display: none;
+            }
+
+        .menu-btn:checked ~ .menu{
+                max-height: 350px;
+            }
+
+        .menu-btn:checked ~ .menu-icon .nav-icon{
+            background: transparent;
+        }
+        .menu-btn:checked ~ .menu-icon .nav-icon:before{
+            transform: rotate(-45deg);
+            top: 0;
+        }
+        .menu-btn:checked ~ .menu-icon .nav-icon:after{
+            transform: rotate(45deg);
+            top: 0;
+        }
+
+    }
+
+    @media only screen and (min-width :900px ){
+
+        .header{
+
+            ul li{
+                float: left;
+            }
+
+            ul li a{
+                padding: 26px 10px;
+                border-right: none;
+            }
+
+            .menu {
+                clear: none;
+                float: right;
+                max-height: none;
+            }
+
+            .menu-icon{
+                display: none;
+            }
+            .languages{
+                margin-left: 20px;
+                button{
+                    margin: 5px;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width :1200px ){
+
+        .header{
+            ul li a{
+                padding: 26px 19px;
+                border-right: none;
+                font-size: 22px;
+            }
+        }
+    }

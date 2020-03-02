@@ -1,10 +1,13 @@
 import React, {Component} from "react";
+import {Link} from "react-router-dom";
 import "./style.scss"
 import Contactimage1 from "../../../images/contact/contact-us.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone,faLocationArrow } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faFacebook,faTwitter,faYoutube,faViber,faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import  { withTranslation } from 'react-i18next';
+
 
 class ContactUs extends Component{
 
@@ -15,7 +18,7 @@ class ContactUs extends Component{
                     <img src={Contactimage1} alt=""/>
                 </div>
                 <div className="adress-section">
-                    <span className="contact-title">Contact Us</span>
+                    <span className="contact-title">{this.props.t("contact.1")}</span>
 
 
                     <div className="contactData contactMail">
@@ -24,7 +27,7 @@ class ContactUs extends Component{
                     </div>
                     <div className="contactData contactLocation">
                     <FontAwesomeIcon icon={faLocationArrow}/>
-                        <span className="contactAdress">Ք. Երևան</span>
+                        <span className="contactAdress">{this.props.t("contact.2")}</span>
                     </div>
                     <div className="contactData contactPhone">
                         <FontAwesomeIcon icon={faPhone}/>
@@ -42,7 +45,7 @@ class ContactUs extends Component{
 
                     <div className="contact-social-icons">
                         <div className="facebook-icon">
-                            <FontAwesomeIcon icon={faFacebook} />
+                            <Link to="https://www.facebook.com/sirhandmade/"><FontAwesomeIcon icon={faFacebook} /></Link>
                         </div>
                         <div className="twitter-icon">
                             <FontAwesomeIcon icon={faTwitter} />
@@ -57,4 +60,4 @@ class ContactUs extends Component{
         )
     }
 }
-export default ContactUs;
+export default withTranslation()(ContactUs);
