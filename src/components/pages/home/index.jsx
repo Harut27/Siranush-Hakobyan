@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import "./style.scss"
-import { useTranslation } from 'react-i18next';
 import logo from "../../../images/logos/logo-white.png"
 import  { withTranslation } from 'react-i18next';
 
